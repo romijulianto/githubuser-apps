@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">GithubsUserApps</string>
+    <string name="background_image">background_image</string>
+    <string name="logo_github">logo_github</string>
+    <string name="copyrigth">Designed and Slicing by Romi Julianto</string>
+    <string name="text_welcome">Welcome</string>
+    <string name="explore_user_on_github">Explore User on Github</string>
+    <string name="detail_explore">You can see detail user on github. \n Simple to Learning From Other Repositories.</string>
+    <string name="get_started_now">Get Started Now</string>
 </resources>
