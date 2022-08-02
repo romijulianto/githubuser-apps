@@ -34,6 +34,6 @@
     <string name="users_not_found">User not found. Type another</string>
     <string name="user_profile">User Profile Picture</string>
     <string name="username">Username</string>
-    <string name="github_username">GitHub Username</string>
+    <string name="github_username">Type username here..</string>
     <string name="showing_results">Showing %d results</string>
 </resources>

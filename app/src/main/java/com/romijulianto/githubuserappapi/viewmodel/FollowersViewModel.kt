@@ -19,12 +19,6 @@ class FollowersViewModel : ViewModel() {
     private val _followers = MutableLiveData<ArrayList<SimpleUser>?>(null)
     val followers: LiveData<ArrayList<SimpleUser>?> = _followers
 
-    /**
-     *  Get followers information of an user
-     *
-     *  @param username GitHub username
-     *  @return Unit
-     */
     fun getUserFollowers(username: String) {
         _isLoading.value = true
 

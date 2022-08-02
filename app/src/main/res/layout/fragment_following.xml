@@ -18,6 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:paddingTop="32dp"
+        android:textColor="@color/white"
         android:text="@string/users_not_found"
         android:visibility="gone" />
 

@@ -7,6 +7,17 @@
     android:orientation="vertical"
     tools:context=".ui.DetailUserActivity">
 
+    <ImageView
+        android:id="@+id/backgound_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_purple"
+        android:contentDescription="@string/background_image"
+        android:src="@drawable/ic_background"
+        tools:ignore="ImageContrastCheck"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar_layout"
         android:layout_width="match_parent"
@@ -24,6 +35,7 @@
                 android:id="@+id/user_detail_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/dark_purple"
                 android:layout_marginTop="?attr/actionBarSize"
                 android:paddingTop="16dp">
 
@@ -53,6 +65,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:visibility="gone"
+                            android:textColor="@color/white"
                             tools:text="@string/my_name" />
 
                         <TextView
@@ -60,6 +73,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
+                            android:textColor="@color/white"
                             tools:text="@string/my_username" />
 
                     </LinearLayout>
@@ -98,12 +112,14 @@
                         <TextView
                             android:id="@+id/tv_repositories"
                             style="@style/Stats"
+                            android:textColor="@color/white"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:textColor="@color/white"
                             android:text="@string/repositories"
                             android:textAlignment="center" />
 
@@ -125,6 +141,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/followers"
+                            android:textColor="@color/white"
                             android:textAlignment="center" />
 
                     </LinearLayout>
@@ -138,6 +155,7 @@
                         <TextView
                             android:id="@+id/tv_following"
                             style="@style/Stats"
+                            android:textColor="@color/white"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
@@ -145,6 +163,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/following"
+                            android:textColor="@color/white"
                             android:textAlignment="center" />
 
                     </LinearLayout>
@@ -177,6 +196,7 @@
                         android:layout_height="wrap_content"
                         android:drawablePadding="8dp"
                         android:visibility="gone"
+                        android:textColor="@color/white"
                         app:drawableStartCompat="@drawable/ic_user_profile"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -190,6 +210,7 @@
                         android:layout_marginTop="8dp"
                         android:drawablePadding="8dp"
                         android:visibility="gone"
+                        android:textColor="@color/white"
                         app:drawableStartCompat="@drawable/ic_college"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -203,6 +224,7 @@
                         android:layout_marginTop="8dp"
                         android:drawablePadding="8dp"
                         android:visibility="gone"
+                        android:textColor="@color/white"
                         app:drawableStartCompat="@drawable/ic_location"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -216,6 +238,7 @@
                         android:layout_marginTop="8dp"
                         android:drawablePadding="8dp"
                         android:visibility="gone"
+                        android:textColor="@color/white"
                         app:drawableStartCompat="@drawable/ic_blog"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -241,10 +264,12 @@
                 android:id="@+id/toolbar_detail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="?attr/colorOnPrimary"
+                app:collapsedTitleTextAppearance="@color/white"
+                app:navigationIconTint="@color/white"
+                app:titleTextColor="@color/white"
+                android:background="@color/dark_purple"
                 android:visibility="visible"
-                app:layout_collapseMode="pin"
-                app:titleTextColor="?attr/colorPrimary" />
+                app:layout_collapseMode="pin" />
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
@@ -252,10 +277,10 @@
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="?attr/colorOnPrimary"
+            android:background="@color/dark_purple"
             android:overScrollMode="never"
             app:tabGravity="fill"
-            app:tabTextColor="?attr/colorPrimary" />
+            app:tabTextColor="@color/white" />
 
     </com.google.android.material.appbar.AppBarLayout>
 

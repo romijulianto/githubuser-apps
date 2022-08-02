@@ -3,14 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Project/Digitalent/AndroidDev/fundamentalAndroid/githubUserAppAPI/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.124" />
         <entry key="..\:/Project/Digitalent/AndroidDev/fundamentalAndroid/githubUserAppAPI/app/src/main/res/drawable-v24/ic_logo_github.xml" value="0.1" />
         <entry key="..\:/Project/Digitalent/AndroidDev/fundamentalAndroid/githubUserAppAPI/app/src/main/res/drawable/ic_blog.xml" value="0.124" />
         <entry key="..\:/Project/Digitalent/AndroidDev/fundamentalAndroid/githubUserAppAPI/app/src/main/res/drawable/ic_college.xml" value="0.124" />
         <entry key="..\:/Project/Digitalent/AndroidDev/fundamentalAndroid/githubUserAppAPI/app/src/main/res/drawable/ic_location.xml" value="0.124" />
         <entry key="..\:/Project/Digitalent/AndroidDev/fundamentalAndroid/githubUserAppAPI/app/src/main/res/drawable/ic_logo_github.xml" value="0.1" />
+        <entry key="..\:/Project/Digitalent/AndroidDev/fundamentalAndroid/githubUserAppAPI/app/src/main/res/drawable/ic_search.xml" value="0.124" />
         <entry key="..\:/Project/Digitalent/AndroidDev/fundamentalAndroid/githubUserAppAPI/app/src/main/res/drawable/ic_text_github.xml" value="0.124" />
         <entry key="..\:/Project/Digitalent/AndroidDev/fundamentalAndroid/githubUserAppAPI/app/src/main/res/drawable/ic_user_profile.xml" value="0.124" />
-        <entry key="..\:/Project/Digitalent/AndroidDev/fundamentalAndroid/githubUserAppAPI/app/src/main/res/layout/activity_detail_user.xml" value="0.3333333333333333" />
+        <entry key="..\:/Project/Digitalent/AndroidDev/fundamentalAndroid/githubUserAppAPI/app/src/main/res/layout/activity_detail_user.xml" value="0.28888888888888886" />
         <entry key="..\:/Project/Digitalent/AndroidDev/fundamentalAndroid/githubUserAppAPI/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/Project/Digitalent/AndroidDev/fundamentalAndroid/githubUserAppAPI/app/src/main/res/layout/activity_main.xml" value="0.13333333333333333" />
         <entry key="..\:/Project/Digitalent/AndroidDev/fundamentalAndroid/githubUserAppAPI/app/src/main/res/layout/activity_on_boarding.xml" value="0.14279606669516887" />
@@ -28,5 +30,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.5" />
+      </ProjectState>
+    </option>
   </component>
 </project>
